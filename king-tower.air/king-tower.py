@@ -1,6 +1,7 @@
 # -*- encoding=utf8 -*-
 __author__ = "littletommytan"
 
+import logging
 from airtest.core.api import *
 
 auto_setup(__file__)
