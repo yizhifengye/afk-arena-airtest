@@ -6,7 +6,7 @@ from airtest.core.api import *
 auto_setup(__file__)
 
 
-start_app("com.lilithgames.hgame.cn")
+# start_app("com.lilithgames.hgame.cn")
 
 wait(Template(r"tpl1579175860795.png", record_pos=(-0.006, 0.65), resolution=(1080, 1920)),999999999999999)
 touch(Template(r"tpl1579175860795.png", record_pos=(-0.006, 0.65), resolution=(1080, 1920)))
