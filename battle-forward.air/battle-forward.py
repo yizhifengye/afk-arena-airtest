@@ -1,12 +1,15 @@
 # -*- encoding=utf8 -*-
 __author__ = "littletommytan"
 
+import logging
 from airtest.core.api import *
 
 auto_setup(__file__)
 
+logging.getLogger("airtest").setLevel(logging.INFO)
 
-# start_app("com.lilithgames.hgame.cn")
+
+start_app("com.lilithgames.hgame.cn")
 
 wait(Template(r"tpl1579175860795.png", record_pos=(-0.006, 0.65), resolution=(1080, 1920)),999999999999999)
 touch(Template(r"tpl1579175860795.png", record_pos=(-0.006, 0.65), resolution=(1080, 1920)))
@@ -33,9 +36,9 @@ while True:
         
 #     下一关
     if exists(Template(r"tpl1579178918677.png", record_pos=(-0.004, 0.653), resolution=(1080, 1920))):
-        sum = 0
         passTime = passTime + 1
-        print ("This Stage trying time: " , sum)
+        print ("PASS! This Stage trying time: " , sum)
+        sum = 0
         try:
             touch(Template(r"tpl1579178918677.png", record_pos=(-0.004, 0.653), resolution=(1080, 1920))) 
         except:
@@ -48,4 +51,5 @@ while True:
             touch(Template(r"tpl1579182748899.png", record_pos=(0.001, 0.475), resolution=(1080, 1920)))
         except:
             pass
+
 

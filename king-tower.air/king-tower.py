@@ -5,8 +5,9 @@ from airtest.core.api import *
 
 auto_setup(__file__)
 
+logging.getLogger("airtest").setLevel(logging.INFO)
 
-# start_app("com.lilithgames.hgame.cn")
+start_app("com.lilithgames.hgame.cn")
 
 wait(Template(r"tpl1579184384811.png", record_pos=(-0.034, -0.015), resolution=(1080, 1920)),9999999999999999)
 
@@ -35,7 +36,7 @@ while True:
         
 #     胜利
     if exists(Template(r"tpl1579313265163.png", record_pos=(0.035, -0.364), resolution=(1080, 1920))):
-        print ("This Stage trying time: " , sum)
+        print ("PASS! This Stage trying time: " , sum)
         sum = 0
         passTime = passTime + 1
         try:
