@@ -16,7 +16,6 @@ passTime = 0
 while True:
     #     失败重来
     if exists(Template(r"tpl1579177798301.png", record_pos=(0.002, 0.706), resolution=(1080, 1920))):
-        touch(Template(r"tpl1579177798301.png", record_pos=(0.002, 0.706), resolution=(1080, 1920)))
         try:
             touch(Template(r"tpl1579177798301.png", record_pos=(0.002, 0.706), resolution=(1080, 1920))) 
         except:
