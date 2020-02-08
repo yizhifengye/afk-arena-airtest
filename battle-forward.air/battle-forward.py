@@ -30,6 +30,7 @@ while True:
         print ("Current Stage trying time: " , sum)
         try:
             touch(Template(r"tpl1579177952990.png", record_pos=(-0.005, 0.801), resolution=(1080, 1920)))
+            sleep(5)
         except:
             pass
         

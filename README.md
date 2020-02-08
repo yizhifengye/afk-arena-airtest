@@ -1,4 +1,4 @@
-# Afk-Arena-Airtest 垃圾剑与远征的自动化脚本
+# Afk-Arena-Airtest 剑与远征的自动化脚本
 
 ### 请堆满你的暴击和闪避！
 
@@ -14,3 +14,7 @@
 > https://airtest.readthedocs.io/zh_CN/latest/README_MORE.html#getting-started
 
 ![afk-arena.jpg](https://i.loli.net/2020/01/18/FVWJuALj2TCehXa.jpg)
+
+### Thanks
+
+[littleTommyTan](git@github.com:littleTommyTan/afk-arena-airtest.git)
